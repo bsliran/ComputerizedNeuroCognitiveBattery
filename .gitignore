@@ -1,10 +1,3 @@
-*.exe
-*.pdb
-*.exe
-*.txt
-*.cache
-*.cache
-*.suo
-
-bin/*
-Debug/*
+ComputerizedNeuroCognitiveBattery.v12.suo
+ComputerizedNeuroCognitiveBattery/bin/
+ComputerizedNeuroCognitiveBattery/Debug/
