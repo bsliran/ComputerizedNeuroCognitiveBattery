@@ -27,7 +27,7 @@ namespace ComputerizedNeuroCognitiveBattery
 
         private TestResultModel GetTestResult()
         {
-
+            throw new NotImplementedException();
         }
     }
 }
