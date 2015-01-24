@@ -49,7 +49,4 @@ namespace ComputerizedNeuroCognitiveBattery
 
 
     }
-
-
-    private 
 }

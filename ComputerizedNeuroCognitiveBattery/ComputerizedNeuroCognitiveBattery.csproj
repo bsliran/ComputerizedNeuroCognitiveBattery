@@ -59,9 +59,6 @@
       <DependentUpon>ImageResources.resx</DependentUpon>
     </Compile>
     <Compile Include="QuestionManager.cs" />
-    <Compile Include="QuestionBaseUserControl.xaml.cs">
-      <DependentUpon>QuestionBaseUserControl.xaml</DependentUpon>
-    <Compile Include="ImageResources.Designer.cs" />
     <Compile Include="NumericComboBoxQuestionUserControl.xaml.cs">
       <DependentUpon>NumericComboBoxQuestionUserControl.xaml</DependentUpon>
     </Compile>
