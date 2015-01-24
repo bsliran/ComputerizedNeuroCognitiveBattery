@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace ComputerizedNeuroCognitiveBattery
 {
-    abstract class Question<T>
+    abstract class Question
     {
         private Stopwatch _stopwatch;
         private QuestionResult _result;
+        //private Dictionary<T, double> _correctAnswers;
 
-        public void Answer(T answer)
+       /* public void Answer(T answer)
         {
             _stopwatch.Stop();
 
@@ -27,6 +28,7 @@ namespace ComputerizedNeuroCognitiveBattery
                 _result.Score = 0;
             }
         }
+        */
 
         public void StartStopwatch()
         {
@@ -35,7 +37,7 @@ namespace ComputerizedNeuroCognitiveBattery
         }
 
         public QuestionResult Result { get; set; }
-
-        private Dictionary<T, double> _correctAnswers;
+        
+        
     }
 }
