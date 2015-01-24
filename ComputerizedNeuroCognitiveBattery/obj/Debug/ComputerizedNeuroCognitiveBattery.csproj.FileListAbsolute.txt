@@ -1,0 +1,13 @@
+c:\users\liran\documents\visual studio 2013\Projects\ComputerizedNeuroCognitiveBattery\ComputerizedNeuroCognitiveBattery\bin\Debug\ComputerizedNeuroCognitiveBattery.exe.config
+c:\users\liran\documents\visual studio 2013\Projects\ComputerizedNeuroCognitiveBattery\ComputerizedNeuroCognitiveBattery\bin\Debug\ComputerizedNeuroCognitiveBattery.exe
+c:\users\liran\documents\visual studio 2013\Projects\ComputerizedNeuroCognitiveBattery\ComputerizedNeuroCognitiveBattery\bin\Debug\ComputerizedNeuroCognitiveBattery.pdb
+c:\users\liran\documents\visual studio 2013\Projects\ComputerizedNeuroCognitiveBattery\ComputerizedNeuroCognitiveBattery\obj\Debug\ComputerizedNeuroCognitiveBattery.csprojResolveAssemblyReference.cache
+c:\users\liran\documents\visual studio 2013\Projects\ComputerizedNeuroCognitiveBattery\ComputerizedNeuroCognitiveBattery\obj\Debug\MainWindow.baml
+c:\users\liran\documents\visual studio 2013\Projects\ComputerizedNeuroCognitiveBattery\ComputerizedNeuroCognitiveBattery\obj\Debug\MainWindow.g.cs
+c:\users\liran\documents\visual studio 2013\Projects\ComputerizedNeuroCognitiveBattery\ComputerizedNeuroCognitiveBattery\obj\Debug\App.g.cs
+c:\users\liran\documents\visual studio 2013\Projects\ComputerizedNeuroCognitiveBattery\ComputerizedNeuroCognitiveBattery\obj\Debug\ComputerizedNeuroCognitiveBattery_MarkupCompile.cache
+c:\users\liran\documents\visual studio 2013\Projects\ComputerizedNeuroCognitiveBattery\ComputerizedNeuroCognitiveBattery\obj\Debug\ComputerizedNeuroCognitiveBattery.g.resources
+c:\users\liran\documents\visual studio 2013\Projects\ComputerizedNeuroCognitiveBattery\ComputerizedNeuroCognitiveBattery\obj\Debug\ComputerizedNeuroCognitiveBattery.Properties.Resources.resources
+c:\users\liran\documents\visual studio 2013\Projects\ComputerizedNeuroCognitiveBattery\ComputerizedNeuroCognitiveBattery\obj\Debug\ComputerizedNeuroCognitiveBattery.csproj.GenerateResource.Cache
+c:\users\liran\documents\visual studio 2013\Projects\ComputerizedNeuroCognitiveBattery\ComputerizedNeuroCognitiveBattery\obj\Debug\ComputerizedNeuroCognitiveBattery.exe
+c:\users\liran\documents\visual studio 2013\Projects\ComputerizedNeuroCognitiveBattery\ComputerizedNeuroCognitiveBattery\obj\Debug\ComputerizedNeuroCognitiveBattery.pdb

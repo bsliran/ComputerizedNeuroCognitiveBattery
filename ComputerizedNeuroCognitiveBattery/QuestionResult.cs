@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ComputerizedNeuroCognitiveBattery
+{
+    class QuestionResult
+    {
+        public double Score { get; set; }
+        public TimeSpan TimePassed { get; set; }
+    }
+}
