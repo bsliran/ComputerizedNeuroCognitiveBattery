@@ -54,6 +54,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="ImageResources.Designer.cs" />
+    <Compile Include="QuestionManager.cs" />
     <Compile Include="Questions\NumericComboBoxedQuestion.cs" />
     <Compile Include="Questions\TextComboBoxedQuestion.cs" />
     <Compile Include="Questions\TextTimeQuestion.cs" />
@@ -63,7 +64,11 @@
     <Compile Include="QuestionResult.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="TestResultModel.cs" />
-    <Compile Include="TextResources.Designer.cs" />
+    <Compile Include="TextResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TextResources.resx</DependentUpon>
+    </Compile>
     <Compile Include="TyposHelper.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -97,7 +102,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="TextResources.resx" />
+    <EmbeddedResource Include="TextResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TextResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -107,9 +115,30 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Images\AnalogClocks\" />
-    <Folder Include="Images\Objects\" />
+    <Resource Include="Images\Objects\Apple.jpg" />
+    <Resource Include="Images\Objects\Bottle.jpg" />
+    <Resource Include="Images\Objects\Broom.jpg" />
+    <Resource Include="Images\Objects\Cake.jpg" />
+    <Resource Include="Images\Objects\Car.jpg" />
+    <Resource Include="Images\Objects\Chair.jpg" />
+    <Resource Include="Images\Objects\Dog.jpg" />
+    <Resource Include="Images\Objects\Glass.jpg" />
+    <Resource Include="Images\Objects\Hat.jpg" />
+    <Resource Include="Images\Objects\Sun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\AnalogClocks\0325.jpg" />
+    <Resource Include="Images\AnalogClocks\0500.jpg" />
+    <Resource Include="Images\AnalogClocks\0510.jpg" />
+    <Resource Include="Images\AnalogClocks\0605.jpg" />
+    <Resource Include="Images\AnalogClocks\0710.jpg" />
+    <Resource Include="Images\AnalogClocks\0800.jpg" />
+    <Resource Include="Images\AnalogClocks\0830.jpg" />
+    <Resource Include="Images\AnalogClocks\1100.jpg" />
+    <Resource Include="Images\AnalogClocks\1155.jpg" />
+    <Resource Include="Images\AnalogClocks\1240.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

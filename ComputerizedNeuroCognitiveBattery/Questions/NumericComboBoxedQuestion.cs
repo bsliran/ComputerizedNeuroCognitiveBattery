@@ -9,9 +9,10 @@ namespace ComputerizedNeuroCognitiveBattery
     public class NumericComboBoxedQuestion : Question
     {
 
-        public NumericComboBoxedQuestion( List<int> possibleAnswers , int correctAnswer)
+        public NumericComboBoxedQuestion( List<int> possibleAnswers , int correctAnswer, string instructions)
         {
             PossibleAnswers = possibleAnswers;
+            Instructions = instructions;
             _correctAnswer = correctAnswer;
         }
 

@@ -61,6 +61,15 @@ namespace ComputerizedNeuroCognitiveBattery {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to באיזה יום בחודש אנו נמצאים?.
+        /// </summary>
+        internal static string DayQuestion {
+            get {
+                return ResourceManager.GetString("DayQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to שאלה {0}: {1} שניות.
         /// </summary>
         internal static string QuestionResultTemplate {
