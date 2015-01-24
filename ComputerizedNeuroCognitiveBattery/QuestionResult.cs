@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ComputerizedNeuroCognitiveBattery
 {
-    class QuestionResult
+    public class QuestionResult
     {
         public double Score { get; set; }
         public TimeSpan TimePassed { get; set; }

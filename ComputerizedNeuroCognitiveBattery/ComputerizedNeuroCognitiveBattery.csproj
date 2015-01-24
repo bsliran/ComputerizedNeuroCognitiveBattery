@@ -53,8 +53,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Question.cs" />
+    <Compile Include="Questions\NumericComboBoxedQuestion.cs" />
+    <Compile Include="Questions\TextComboBoxedQuestion.cs" />
+    <Compile Include="Questions\TextTimeQuestion.cs" />
+    <Compile Include="Questions\AnalogClockQuestion.cs" />
+    <Compile Include="Questions\ImageQuestions.cs" />
+    <Compile Include="Questions\Question.cs" />
     <Compile Include="QuestionResult.cs" />
+    <Compile Include="TyposHelper.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -94,6 +100,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\AnalogClocks\" />
+    <Folder Include="Images\Objects\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
