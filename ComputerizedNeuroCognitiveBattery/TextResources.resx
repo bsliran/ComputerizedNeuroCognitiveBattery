@@ -117,8 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DayQuestion" xml:space="preserve">
+  <data name="CurrentDayQuestion" xml:space="preserve">
     <value>באיזה יום בחודש אנו נמצאים?</value>
+  </data>
+  <data name="CurrentMonthQuestion" xml:space="preserve">
+    <value>באיזה חודש אנו נמצאים?</value>
+  </data>
+  <data name="CurrentYearQuestion" xml:space="preserve">
+    <value>מהי השנה הנוכחית?</value>
   </data>
   <data name="QuestionResultTemplate" xml:space="preserve">
     <value>שאלה {0}: {1} שניות</value>

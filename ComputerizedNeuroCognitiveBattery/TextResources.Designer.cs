@@ -63,9 +63,27 @@ namespace ComputerizedNeuroCognitiveBattery {
         /// <summary>
         ///   Looks up a localized string similar to באיזה יום בחודש אנו נמצאים?.
         /// </summary>
-        internal static string DayQuestion {
+        internal static string CurrentDayQuestion {
             get {
-                return ResourceManager.GetString("DayQuestion", resourceCulture);
+                return ResourceManager.GetString("CurrentDayQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to באיזה חודש אנו נמצאים?.
+        /// </summary>
+        internal static string CurrentMonthQuestion {
+            get {
+                return ResourceManager.GetString("CurrentMonthQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to מהי השנה הנוכחית?.
+        /// </summary>
+        internal static string CurrentYearQuestion {
+            get {
+                return ResourceManager.GetString("CurrentYearQuestion", resourceCulture);
             }
         }
         
