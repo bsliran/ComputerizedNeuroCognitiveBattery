@@ -18,7 +18,7 @@ namespace ComputerizedNeuroCognitiveBattery
     /// <summary>
     /// Interaction logic for NumericComboBoxQuestionUserControl.xaml
     /// </summary>
-    public partial class NumericComboBoxQuestionUserControl : QuestionBaseUserControl
+    public partial class NumericComboBoxQuestionUserControl : UserControl
     {
         public NumericComboBoxQuestionUserControl()
         {

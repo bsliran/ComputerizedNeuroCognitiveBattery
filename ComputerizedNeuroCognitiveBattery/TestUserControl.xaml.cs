@@ -24,15 +24,5 @@ namespace ComputerizedNeuroCognitiveBattery
         {
             InitializeComponent();
         }
-
-        public QuestionBaseUserControl QuestionContent
-        {
-            get { return (QuestionBaseUserControl)GetValue(QuestionContentProperty); }
-            set { SetValue(QuestionContentProperty, value); }
-        }
-
-        public static readonly DependencyProperty QuestionContentProperty =
-            DependencyProperty.Register("QuestionContent", typeof(QuestionBaseUserControl), typeof(TestUserControl));
-
     }
 }
