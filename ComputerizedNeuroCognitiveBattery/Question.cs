@@ -12,19 +12,15 @@ namespace ComputerizedNeuroCognitiveBattery
         private Stopwatch _stopwatch;
         private QuestionResult _result;
 
-        public virtual void Answer(T answer)
+        public void Answer(T answer)
         {
             _stopwatch.Stop();
 
             _result = new QuestionResult() { TimePassed = _stopwatch.Elapsed };
 
-            if (_correctAnswers.Contains(answer))
+            if (_correctAnswers.Keys.Contains(answer))
             {
-                _result.Score = 1;
-            }
-            else if (_nearlyCorrectAnswers.Contains(answer))
-            {
-                _result.Score = 0.5;
+                _result.Score = _correctAnswers[answer];
             }
             else
             {
@@ -32,9 +28,14 @@ namespace ComputerizedNeuroCognitiveBattery
             }
         }
 
+        public void StartStopwatch()
+        {
+            _stopwatch = new Stopwatch();
+            _stopwatch.Start();
+        }
+
         public QuestionResult Result { get; set; }
 
-        private List<T> _correctAnswers;
-        private List<T> _nearlyCorrectAnswers;
+        private Dictionary<T, double> _correctAnswers;
     }
 }
