@@ -10,6 +10,7 @@ namespace ComputerizedNeuroCognitiveBattery
     {
         private int _userId;
         private DateTime _testTime;
+        
         public IDictionary<Question, QuestionResult> Questions { get; set; }
 
         public Test(int userId)
